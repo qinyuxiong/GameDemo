@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/4/16 21:53:15。
+     1>项目“G:\Prototype_1\src\Prototype_1_main\Prototype_1_main.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2013\VC\bin\CL.exe /c /IG:\Prototype_1\src\..\3rd\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"G:\Prototype_1\src\..\temp\compile\\" /Fd"G:\Prototype_1\src\..\temp\compile\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ViewPort.cpp
+         ViewPort.cpp
+       Link:
+         G:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Prototype_1\src\..\temp\link\Prototype_1_main.exe" /INCREMENTAL /NOLOGO /LIBPATH:G:\Prototype_1\src\..\3rd\lib\Debug kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Prototype_1\src\..\temp\link\Prototype_1_main.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Prototype_1\src\..\temp\link\Prototype_1_main.lib" /MACHINE:X86 G:\Prototype_1\src\..\temp\compile\Animation.obj
+         G:\Prototype_1\src\..\temp\compile\Image.obj
+         G:\Prototype_1\src\..\temp\compile\Button.obj
+         G:\Prototype_1\src\..\temp\compile\Canvas.obj
+         G:\Prototype_1\src\..\temp\compile\GameMgr.obj
+         G:\Prototype_1\src\..\temp\compile\Widget.obj
+         G:\Prototype_1\src\..\temp\compile\Dialog.obj
+         G:\Prototype_1\src\..\temp\compile\DlgMgr.obj
+         G:\Prototype_1\src\..\temp\compile\IniFile.obj
+         G:\Prototype_1\src\..\temp\compile\MapBuffer.obj
+         G:\Prototype_1\src\..\temp\compile\MapMgr.obj
+         G:\Prototype_1\src\..\temp\compile\ViewPort.obj
+         G:\Prototype_1\src\..\temp\compile\Text.obj
+         G:\Prototype_1\src\..\temp\compile\Thread.obj
+         G:\Prototype_1\src\..\temp\compile\Utility.obj
+         G:\Prototype_1\src\..\temp\compile\Window.obj
+         Prototype_1_main.vcxproj -> G:\Prototype_1\src\..\temp\link\Prototype_1_main.exe
+       PostBuildEvent:
+         md G:\Prototype_1\src\..\bin\Debug
+         copy G:\Prototype_1\src\..\temp\link\Prototype_1_main.exe G:\Prototype_1\src\..\bin\Debug
+         copy G:\Prototype_1\src\..\3rd\dll\Debug G:\Prototype_1\src\..\bin\Debug
+         :VCEnd
+         子目录或文件 G:\Prototype_1\src\..\bin\Debug 已经存在。
+         已复制         1 个文件。
+         G:\Prototype_1\src\..\3rd\dll\Debug\1.dll
+         已复制         1 个文件。
+     1>已完成生成项目“G:\Prototype_1\src\Prototype_1_main\Prototype_1_main.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11

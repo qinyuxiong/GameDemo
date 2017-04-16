@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{ef1a1f63-cdd9-4a67-9810-ab74c244eeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{537d8a76-81ff-4e27-a20d-cd6a8996d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgrs">
+      <UniqueIdentifier>{67aa67d3-339c-4a37-b297-ef4a42278f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{3865c396-c6d7-477a-b4ff-00d1321ba641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{5b190782-23eb-4271-b3d9-4cbb15f68a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\source">
+      <UniqueIdentifier>{6757c078-bfbd-4532-bf14-c7c4ba2b4aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\header">
+      <UniqueIdentifier>{96765a6b-1bfd-4068-b1d5-ed88018aacd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgrs\source">
+      <UniqueIdentifier>{aec71e9a-f9ef-4b2a-b835-3f8defdd8a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgrs\header">
+      <UniqueIdentifier>{c625fa7b-90e5-4975-80a0-1cb7f49aaa3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\source">
+      <UniqueIdentifier>{2a4e9037-c82d-4002-a44d-ba74c07f0e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\header">
+      <UniqueIdentifier>{2b6c897e-ce82-4ab4-ba3f-5a06a9f6c944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\header">
+      <UniqueIdentifier>{ef17322d-c253-4252-8c10-a2ff9334caec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\source">
+      <UniqueIdentifier>{70ac37bb-cc8f-4d2d-a97f-159eb3df8089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\source">
+      <UniqueIdentifier>{fa0940c2-45de-4ebd-9221-ac4f8da74202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\header">
+      <UniqueIdentifier>{f5e5105e-66cb-474c-a6a2-da3ccd7ef8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{66eb4f8b-ddec-4d97-9f0b-7e34dfdd6114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Header">
+      <UniqueIdentifier>{ae30dc2d-c6ea-4397-b1bb-64e1992cb1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Source">
+      <UniqueIdentifier>{d188e708-1b4b-4321-a707-4fe9dbaeec34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Controls\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Controls\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>Controls\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Controls\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMgr.h">
+      <Filter>Mgrs\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Utility\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PreCompile.h">
+      <Filter>Utility\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBuffer.h">
+      <Filter>Map\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMgr.h">
+      <Filter>Mgrs\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Controls\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>Mgrs\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMe.h">
+      <Filter>Utility\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Controls\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Controls\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Controls\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Controls\source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMgr.cpp">
+      <Filter>Mgrs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBuffer.cpp">
+      <Filter>Map\source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMgr.cpp">
+      <Filter>Mgrs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Controls\source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>Mgrs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
