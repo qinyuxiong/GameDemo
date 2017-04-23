@@ -18,9 +18,11 @@
 
 综上所述，我们需要两个buffer来进行地图资源的预加载，且每一个buffer的尺寸要略大于游戏窗口尺寸，大的这个值就作为玩家移动靠近边界的临界值，一旦达到临界范围，开始在另一条线程预加载备用buffer，完成后交换buffer指针。注意临界值的大小需要足够玩家到达当前资源边界之前读取成功。
 
+ ![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/1.jpg)
+ 
 假设以分辨率1366×768 来说，一张能够填满窗口的图载入到内存需要约1MB。进行预加载，假设内存中地图资源buffer尺寸为1750*900，占用约1.5MB内存，两个buffer总共3MB内存，能够接受。
 
- ![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/1.jpg)
+ ![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/4.jpg)
 
 # 2、控件
 游戏中的对话框基本等同于全部UI，一个对话框可能包含N个控件，如：输入框、文本、按钮、列表等。
@@ -32,11 +34,14 @@
 
 对话框需要响应输入事件，在GameMgr捕捉到输入时间后，根据对话框层次，从上往下遍历。在每一个对话框里，根据Layer，从上往下遍历，判断当前时间是否发生在子控件内，以及该子控件是否能响应这个事件，如果是，则调用。
 
+![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/3.jpg)
 
 # 3、动画
 本质上动画是由一帧一帧的图像构成，即N张图片。然后以在每隔一段时间后播放下一张图片，如此循环，便是动画。
 
 在指定位置Draw时，获取当前时间，如果与上次Draw的时间差大于一定值，则Draw下一张图片。时间差值由图片的帧率决定。此处注意图片帧率如果大于游戏帧率会看起来跳帧。
+
+![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/2.jpg)
 
 # 4、其他
 地图、控件、动画所需的如长度、资源路径等可存放在配置表文件中，读取时依据类别读取配置表。
