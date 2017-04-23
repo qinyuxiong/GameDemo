@@ -20,6 +20,8 @@
 
 假设以分辨率1366×768 来说，一张能够填满窗口的图载入到内存需要约1MB。进行预加载，假设内存中地图资源buffer尺寸为1750*900，占用约1.5MB内存，两个buffer总共3MB内存，能够接受。
 
+ ![image](https://github.com/qinyuxiong/GameDemo/raw/master/ReadMe/1.jpg)
+
 # 2、控件
 游戏中的对话框基本等同于全部UI，一个对话框可能包含N个控件，如：输入框、文本、按钮、列表等。
 
